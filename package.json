@@ -1,0 +1,30 @@
+{
+  "name": "node-typescript-starter",
+  "version": "0.0.1",
+  "description": "A simple starter for nodejs projects using typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npm run tsc & npm run serve",
+    "tsc": "tsc -w",
+    "serve": "cd dist && nodemon index.js --ignore src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominikstrasser/node-typescript-starter.git"
+  },
+  "keywords": [
+    "node",
+    "starter",
+    "typescript"
+  ],
+  "author": "Dominik Strasser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dominikstrasser/node-typescript-starter/issues"
+  },
+  "homepage": "https://github.com/dominikstrasser/node-typescript-starter#readme",
+  "devDependencies": {
+    "@types/node": "^7.0.5",
+    "nodemon": "^1.11.0"
+  }
+}
