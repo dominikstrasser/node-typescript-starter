@@ -14,6 +14,8 @@ Example:
 
 ```
 npm install --save express @types/express 
-npm install --save body-parser @types/body-parser
-...
+
+
+import * as express from 'express';
+const app = express();
 ```

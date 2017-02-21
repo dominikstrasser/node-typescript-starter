@@ -25,6 +25,7 @@
   "homepage": "https://github.com/dominikstrasser/node-typescript-starter#readme",
   "devDependencies": {
     "@types/node": "^7.0.5",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "typescript": "^2.1.6"
   }
 }
